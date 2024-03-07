@@ -1,0 +1,103 @@
+# importing themes to use
+import = [
+  # "~/.config/alacritty/themes/catppuccin-frappe.toml",
+   #"~/.config/alacritty/themes/catppuccin-macchiato.toml",
+   "~/.config/alacritty/themes/catppuccin-mocha.toml",
+]
+
+# specifying which shell to use
+shell = "/usr/bin/zsh"
+
+
+[env]
+ TERM = "xterm-256color"
+
+
+# window specifications 
+[window]
+  opacity=0.75
+  blur = true  # make background blur 
+  dynamic_padding = true
+
+[window.dimensions]
+  columns = 120
+  lines = 30
+
+[window.padding]
+  #x = 2
+  #y = 2
+
+
+# scrolling functionality
+[scrolling]
+  history = 10000 # default 10000
+  multiplier = 3  # default 3, 3 lines up for every input scrool increment
+
+
+# fonts specifications 
+[font]
+  size = 14
+
+[font.normal]
+  family = "IntonemonoNerdFont"
+  style = "Regular"
+
+[font.bold]
+  family = "IntonemonoNerdFont"
+  style = "Bold"
+
+[font.italic]
+  family = "IntonemonoNerdFont"
+  style = "Italic"
+
+[font.bold_italic]
+  family = "IntonemonoNerdFont"
+  style = "Bold Italic"
+
+
+# colors specifications  for cursor, texts etc
+[colors]
+#  transparent_background_colors = true
+  draw_bold_text_with_bright_colors = true
+
+[colors.selection]
+  #text = '#FFA17F'
+  background = '#00dbde'
+
+[colors.cursor]
+#  text = '#FF416C'
+  cursor = '#00b09b'
+
+
+# text selection specifications 
+[selection]
+  save_to_clipboard = true
+
+
+# cursor customizations
+[cursor]
+  thickness = 0.25
+  blink_interval = 700
+  blink_timeout = 0
+
+[cursor.style]
+  shape = "Beam"
+  blinking = "On"
+
+
+# custom key-bindings to control alacritty 
+[keyboard]
+  bindings = [
+      { key = "k", mods = "Control", action = "ClearLogNotice" },
+      { key = "m", mods = "Control", action = "Minimize" },
+      { key = "n", mods = "Control", action = "SpawnNewInstance" },
+      { key = "q", mods = "Control", action = "Quit" },
+      { key = "x", mods = "Control", action = "ToggleMaximized" },
+      { key = "w", mods = "Control", action = "CreateNewWindow" },
+]
+
+
+# DEBUG
+[debug]
+  #render_timer = true # show render time at bottom left
+
