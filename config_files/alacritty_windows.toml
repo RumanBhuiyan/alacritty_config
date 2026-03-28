@@ -1,0 +1,246 @@
+# Use single quotes for Windows paths to avoid escaping every backslash
+[general]
+import = [
+    # "C:/Users/ruman/.config/alacritty/themes/acme.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/acme.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/afterglow.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/alabaster.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/alabaster_dark.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/alacritty_0_12.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/argonaut.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/ashes_dark.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/ashes_light.toml"
+    "C:/Users/ruman/.config/alacritty/themes/aura.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/autumn.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/ayu_dark.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/ayu_light.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/ayu_mirage.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/baitong.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/base16_default_dark.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/blood_moon.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/bluish.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/breeze.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/campbell.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/carbonfox.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/catppuccin.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/catppuccin_frappe.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/catppuccin_latte.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/catppuccin_macchiato.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/catppuccin_mocha.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/challenger_deep.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/chicago95.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/citylights.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/Cobalt2.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/cyber_punk_neon.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/dark_pastels.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/dark_plus.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/dark_pride.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/dawnfox.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/dayfox.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/deep_space.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/doom_one.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/dracula.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/dracula_plus.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/duskfox.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/enfocado_dark.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/enfocado_light.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/everforest_dark.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/everforest_dark_hard.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/everforest_dark_medium.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/everforest_dark_soft.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/everforest_light.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/everforest_light_hard.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/everforest_light_medium.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/everforest_light_soft.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/falcon.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/flat_remix.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/flexoki.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/github_dark.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/github_dark_colorblind.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/github_dark_default.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/github_dark_dimmed.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/github_dark_high_contrast.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/github_dark_tritanopia.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/github_light.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/github_light_colorblind.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/github_light_default.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/github_light_high_contrast.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/github_light_tritanopia.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/gnome_terminal.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/google.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/gotham.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/gruber_darker.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/gruvbox_dark.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/gruvbox_light.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/gruvbox_material.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/gruvbox_material_hard_dark.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/gruvbox_material_hard_light.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/gruvbox_material_medium_dark.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/gruvbox_material_medium_light.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/hardhacker.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/hatsunemiku.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/high_contrast.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/horizon_dark.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/hyper.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/iceberg.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/inferno.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/iris.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/iterm.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/iterm_solardark.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/kanagawa_dragon.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/kanagawa_wave.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/kimbie_dark.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/kimbie_light.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/kitty.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/konsole_linux.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/linux.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/low_contrast.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/Mariana.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/marine_dark.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/material_theme.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/material_theme_mod.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/meliora.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/miasma.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/midnight_haze.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/monokai.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/monokai_charcoal.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/monokai_pro.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/moonfly.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/moonlight_ii_vscode.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/msx.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/night_owl.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/night_owlish_light.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/nightfly.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/nightfox.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/noctis_lux.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/nord.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/nord_light.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/nordfox.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/nordic.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/nvim_dark.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/oceanic_next.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/omni.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/one_dark.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/one_light.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/oxocarbon.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/palenight.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/panda.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/papercolor_dark.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/papercolor_light.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/papertheme.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/pastel_dark.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/pencil_dark.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/pencil_light.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/rainbow.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/remedy_dark.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/rigel.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/rose_pine.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/rose_pine_dawn.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/rose_pine_moon.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/seashells.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/selenized_dark.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/selenized_light.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/seoul256-light.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/smoooooth.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/snazzy.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/solarized_dark.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/solarized_light.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/solarized_osaka.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/solarized_osaka_day.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/sonokai.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/spacegray.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/synthwave_84.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/taerminal.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/tango_dark.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/tender.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/terafox.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/terminal_app.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/thelovelace.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/tokyo_night.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/tokyo_night_enhanced.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/tokyo_night_storm.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/tomorrow.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/tomorrow_night.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/tomorrow_night_blue.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/tomorrow_night_bright.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/tomorrow_night_eighties.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/ubuntu.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/vesper.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/vscode.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/wombat.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/xterm.toml"
+    # "C:/Users/ruman/.config/alacritty/themes/zenburn.toml"
+]
+
+# hot reload after save
+live_config_reload = true
+
+# Specifying Git Bash as the default shell
+[terminal.shell]
+program = "C:/Program Files/Git/bin/bash.exe"
+args = ["--login", "-i"]
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+opacity = 0.92
+blur = true
+title = "" # override top left Alacritty to ''
+dynamic_title = false # not to show directory path at top left
+# decorations = "None"
+#dynamic_padding = true
+
+[window.dimensions]
+columns = 100
+lines = 20
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[font]
+size = 14
+
+[font.normal]
+family = "ComicShannsMono Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "ComicShannsMono Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "ComicShannsMono Nerd Font"
+style = "Italic"
+
+[colors]
+# transparent_background_colors = false
+# draw_bold_text_with_bright_colors = true
+
+[colors.selection]
+background = '#00dbde'
+
+[colors.cursor]
+cursor = '#00b09b'
+
+[selection]
+save_to_clipboard = true
+
+[cursor]
+thickness = 0.25
+blink_interval = 700
+
+[cursor.style]
+shape = "Beam"
+blinking = "On"
+
+[keyboard]
+bindings = [
+    # key usage example: Ctrl+Q: Quit
+    { key = "Q", mods = "Control", action = "Quit" },
+    { key = "W", mods = "Control", action = "CreateNewWindow" },
+    { key = "M", mods = "Control", action = "Minimize" },
+    { key = "N", mods = "Control", action = "SpawnNewInstance" },
+    { key = "X", mods = "Control", action = "ToggleMaximized" },
+]
